@@ -1,0 +1,94 @@
+/* Body Styling */
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+/* Card Styling */
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Profile Section */
+#profile-wrapper {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #007bff;
+}
+
+/* Card Body Styling */
+.card-body {
+    background-color: #ffffff;
+    padding: 30px;
+}
+
+/* Objective Section */
+h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007bff;
+}
+
+hr {
+    border: 1px solid #007bff;
+    width: 50px;
+    margin: 10px 0;
+}
+
+/* Text Styling */
+p {
+    font-size: 1rem;
+    color: #333333;
+}
+
+/* Skills and Projects List */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    font-size: 1rem;
+    color: #555555;
+    margin: 8px 0;
+}
+
+ul li::before {
+    content: "• ";
+    color: #007bff;
+}
+
+/* Card Hover Effect */
+.card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Section Titles */
+h4.card-title, h4.card-text {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Container Styling */
+.container {
+    margin-top: 50px;
+}
+
+/* Columns for responsive design */
+@media (max-width: 768px) {
+    .col-md-9, .col-md-3 {
+        margin-bottom: 20px;
+    }
+}
